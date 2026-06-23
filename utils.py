@@ -1,0 +1,11 @@
+def menu():
+    print("\n== SISTEMA ACADEMICO ==")
+    print("1 - Cadastrar aluno")
+    print("2 - Listar alunos")
+    print("3 - Buscar aluno")
+    print("4 - Ordenar por nome")
+    print("5 - Ordenar por nota")
+    print("6 - Cadastrar notas")
+    print("7 - Relatorio")
+    print("0 - Sair")
+    return input("Escolha uma opcao: ")
